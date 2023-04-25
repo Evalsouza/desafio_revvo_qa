@@ -1,0 +1,23 @@
+{
+  "name": "sandbox",
+  "version": "1.0.0",
+  "description": "Criar curso Desafio Revvo QA",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "keywords": [
+    "Desafio",
+    "Revvo",
+    "QA"
+  ],
+  "author": "Eva Souza",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "12.10.0",
+    "cypress-xpath": "2.0.1"
+  },
+  "devDependencies": {
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  }
+}
